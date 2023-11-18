@@ -1,0 +1,25 @@
+@use "common";
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/font-style/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+// li {
+//   list-style: none;
+// }
+
+a {
+  text-decoration: none;
+}
