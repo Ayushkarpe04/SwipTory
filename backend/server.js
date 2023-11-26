@@ -9,6 +9,7 @@ import path from "path";
 import { errorHandler, notFound } from "./middlewares/errorMiddleware.js";
 
 import healthCheckerRouter from "./routers/healthCheckerRouter.js";
+import userRoutes from "./routers/userRouter.js";
 
 dotenv.config();
 const app = express();
@@ -32,6 +33,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/healthChecker", healthCheckerRouter);
+app.use("/api/users", userRoutes);
 
 // Create a static folder
 // const __dirname = path.resolve();

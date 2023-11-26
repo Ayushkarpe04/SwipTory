@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.MainPNF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #2e0052;
+  color: #fff;
+}
+
+.pnf_h1 {
+  font-size: 6em;
+  margin-bottom: 10px;
+}
+
+.pnf_p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.pnf_btn {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #450079;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pnf_btn:hover {
+  background-color: #6a00b6;
+}
+
+/* Customized styling for the button to make it more interesting */
+.pnf_btn::before {
+  content: "\2190"; /* Unicode arrow character */
+  margin-right: 10px;
+  font-size: 1.5em;
+}
