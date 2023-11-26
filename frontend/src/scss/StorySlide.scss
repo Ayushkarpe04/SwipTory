@@ -1,0 +1,82 @@
+.Ssmain {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10;
+  box-sizing: content-box;
+
+  .storyDiv {
+    position: absolute;
+    width: 21.1875rem;
+    height: 28.84069rem;
+    object-fit: fill;
+
+    // img {
+    //   width: 21.1875rem;
+    //   height: 28.84069rem;
+    //   object-fit: contain;
+    // }
+
+    .crossbtn {
+      position: relative;
+      top: 2rem;
+      left: 1.5rem;
+      z-index: 15;
+    }
+
+    .sendBtn {
+      position: relative;
+      top: 2rem;
+      right: -17.5rem;
+      z-index: 15;
+    }
+
+    .bottomdivSsmain {
+      position: relative;
+      bottom: -20rem;
+      margin: 0rem 1rem;
+      z-index: 15;
+
+      color: #fff;
+      font-family: "DM Sans";
+      font-size: 0.625rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+
+      .bottomsvgs {
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .likebtndiv {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .stylediv {
+      z-index: 12;
+      background: linear-gradient(0deg, #000 59.6%, rgba(0, 0, 0, 0) 102.31%);
+      position: relative;
+      width: 21.1875rem;
+      height: 13.90613rem;
+      bottom: -8rem;
+    }
+  }
+}
+
+.SSmain {
+  backdrop-filter: blur(5px);
+}

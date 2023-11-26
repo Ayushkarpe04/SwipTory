@@ -42,6 +42,6 @@ const HomeScreen = () => {
       </div>
     </div>
   )
-}
 
+}
 export default HomeScreen
