@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import HomeScreen from "./screens/HomeScreen";
+import Navbar from "./screens/Navbar";
 
 function App() {
   const [isMobile, setIsMobile] = useState(false);
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    <Navbar isMobile={isMobile} />
       <Routes>
         <Route
           path='/'

@@ -1,0 +1,172 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+main{
+    box-sizing: content-box;
+    
+
+}
+
+#navbar{
+    width: 100vw;
+    box-shadow: 1px 1px 20px 2px rgba(128, 128, 128, 0.32);
+    height:  4.5625rem;
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px; 
+    box-sizing: border-box;
+    
+}
+
+
+
+#logo{
+    color: #000;
+text-align: center;
+font-family: "Roboto", sans-serif;;
+
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+
+
+}
+
+#login{
+    width: 7.5rem;
+    height: 2.5rem;
+background-color: #FF7373;
+color: white;
+border-radius: 0.85rem;
+
+margin: 10px;
+border: none;
+cursor: pointer;
+
+text-align: center;
+font-family: "Roboto", sans-serif;;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 700;
+
+}
+
+#signin{
+    width: 7.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+
+    border-radius: 0.85rem;
+    background: #73ABFF;
+    color: white;
+    text-align: center;
+border: none;
+text-align: center;
+font-family: "Roboto", sans-serif;;
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 700;
+}
+
+
+
+/* Mobile Css*/
+#nav-modal{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    
+}
+
+#hamburger-logo{
+    border-color: white;
+}
+
+#modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Login Modal*/
+.modal-background{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.662); /* Adjust the alpha value for the desired level of transparency */
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.main-modal{
+    width: 30rem;
+    backdrop-filter: blur(100px);
+    height: 20rem;
+    top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1.25rem;
+    background: #FFF;
+    border: 2px solid black;
+    box-shadow: 0px 4px 30px 0px rgba(255, 255, 255, 0.25);
+}
+
+.heading{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.user-pass{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+     gap: 1.8rem;
+}
+
+.input-field{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+}
+
+input{
+    width: 10rem;
+    height: 1.3rem;
+}
+
+.eye{
+    margin-left: -4.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+    
+}
+
+.cross-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 2rem;
+    right: 2rem;
+}
+
